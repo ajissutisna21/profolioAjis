@@ -1,4 +1,18 @@
+body {
+  overflow-x: hidden;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
 .jumbotron {
+  overflow-x: hidden;
   padding-top: 6rem;
   background-color: aqua;
 }
